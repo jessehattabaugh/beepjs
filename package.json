@@ -1,0 +1,23 @@
+{
+  "name": "beepjs",
+  "version": "0.0.0",
+  "description": "Make your browser beep ======================",
+  "main": "beep.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo test/index.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessehattabaugh/beepjs.git"
+  },
+  "author": "Neuman Vong <neuman@ashmoremusic.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jessehattabaugh/beepjs/issues"
+  },
+  "homepage": "https://github.com/jessehattabaugh/beepjs#readme",
+  "devDependencies": {
+    "budo": "^8.0.4"
+  }
+}
